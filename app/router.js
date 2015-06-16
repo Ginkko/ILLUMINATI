@@ -11,6 +11,7 @@ Router.map(function() {
   });
   this.resource('housebills');
   this.resource('senatebills');
+  this.resource('recentbills');
   this.resource('committees', function() {
     this.resource('subcommittees', {path: '/:committee_id'});
   });
