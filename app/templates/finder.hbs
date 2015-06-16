@@ -1,0 +1,13 @@
+<h1>LOCATE YOUR LOCAL GOVERNMENT PEON</h1>
+<hr>
+
+<form>
+  <div class="form-group">
+    <label for="zip">ENTER YOUR GOVERNMENT ASSIGNED ZONE IMPROVEMENT PLAN CODE</label>
+    {{input class="form-control" value=zip id="zip"}}
+  </div>
+  <button class="btn btn-danger" {{action 'submit'}}>FIND PEON</button>
+</form>
+
+
+{{outlet}}

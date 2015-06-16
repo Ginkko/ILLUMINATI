@@ -1,0 +1,11 @@
+<h1>PEONS HAVE BEEN LOCATED IN YOUR MUNICIPAL REGION</h1>
+
+<ul>
+  {{#each model as |peon|}}
+  <li>
+    <span class='peon-name'>{{peon.first_name}} {{peon.last_name}}</span>
+    <br>
+    Contact: <a href={{peon.contact_form}}>{{peon.contact_form}}</a>
+  </li>
+  {{/each}}
+</ul>
