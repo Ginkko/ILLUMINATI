@@ -1,6 +1,22 @@
 body {
+
   padding-top: 70px;
+  background-image: url("/img/illuminati.jpg");
+  background-repeat: no-repeat;
+
 }
 .peon-name {
   color: red;
+}
+
+.red {
+  color: red;
+}
+
+.panel .panel-heading {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.7);
 }

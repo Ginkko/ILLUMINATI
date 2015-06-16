@@ -1,0 +1,10 @@
+<h1 class='panel-heading'>SOCIALIST AGENDA ENTRIES</h1>
+
+<h3>THERE ARE CURRENTLY <span class='red'>{{model.length}}</span> SOCIALIST GOVERNMENT OVERSIGHT SCHEMES IN PROGRESS</h3>
+<ul>
+  {{#each model as |bill|}}
+  <li><span style="font-weight: bold;">{{bill.bill_id}}</span>
+    <br>
+    {{bill.description}} <a href={{bill.bill_url}}>{{bill.bill_url}}</a></li>
+  {{/each}}
+</ul>

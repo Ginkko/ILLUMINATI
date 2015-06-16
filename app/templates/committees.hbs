@@ -1,0 +1,9 @@
+<h1 class='panel-heading'>GOVERNMENT CABALS</h1>
+
+<h3>THERE ARE CURRENTLY <span class="red">{{model.length}}</span> CABALS "<em>HELPING</em>" THE AMERICAN POPULOUS</h3>
+<ul>
+  {{#each model as |committee|}}
+  <li><span style="font-weight: bold;">{{committee.name}}</span>
+  </li>
+  {{/each}}
+</ul>
